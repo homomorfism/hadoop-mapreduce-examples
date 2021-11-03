@@ -1,6 +1,7 @@
 # hadoop-mapreduce-examples
 Backup from my  big data labs at University Innopolis, where we were working with hadoop jobs
 
+Vagrant images are stored here: [google.disk](https://drive.google.com/drive/folders/1KMM3ZSEzYqgHWIMMShHl7phbTtXN3gJu?usp=sharing) 
 
 Run vagrant image:
 - `vagrant up`
