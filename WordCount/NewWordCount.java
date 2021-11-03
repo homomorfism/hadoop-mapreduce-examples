@@ -26,6 +26,7 @@ public class NewWordCount {
       while (itr.hasMoreTokens()) {
         String line = itr.nextToken();
         String filteredLine = line.toLowerCase().replaceAll("[^a-z-]", "");
+        // E.x. regex could convert numbers to empty line - we should handle this case  
         if (!filteredLine.isEmpty()) {
                 word.set(filteredLine);
                 context.write(word, one);
